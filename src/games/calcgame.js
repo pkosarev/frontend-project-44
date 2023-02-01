@@ -14,7 +14,7 @@ const getResultOperation = (number1, number2, operation) => {
       return number1 * number2;
     default:
       throw new Error(`operation ${operation} is not supported`);
-}
+  }
 };
 
 const generateRoundData = () => {
